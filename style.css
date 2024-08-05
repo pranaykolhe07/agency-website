@@ -1,0 +1,60 @@
+/* Google Font Family  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia&display=swap');
+
+body{
+    background-color: #faf9f6;
+    font-family: "Poppins", sans-serif;
+}
+body h3{
+    color: orange;
+    font-style: italic;
+}
+
+#mainSection h2{
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#create{
+    color: rgb(26, 26, 85)
+}
+
+#subSection{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#beauty img{
+    width: 180px;
+    display: flex;
+    display: inline-block;
+}
+#beautyInfo{
+    font-size: small;
+    display: inline-block;
+    margin-left: 30px;
+    width: 500px;
+    height: 150px;
+}
+
+#construction img{
+    width: 180px;
+    display: flex;
+    display: inline-block;
+}
+#constructionInfo{
+    font-size: small;
+    display: inline-block;
+    margin-left: 30px;
+    width: 500px;
+    height: 150px;
+}
+
+#moto{
+    color: rgb(26, 26, 85);
+    margin-top: 100px;
+    font-size: smaller;
+    text-align: right;
+}
